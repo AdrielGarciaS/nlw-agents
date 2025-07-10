@@ -12,6 +12,12 @@ await seed(db, schema).refine((faker) => {
         name: faker.companyName(),
         description: faker.loremIpsum(),
       },
+      with: {
+        questions: 5, // Questions per room
+      },
+      // questions: {
+      //   count: 20, // Questions total
+      // }
     },
   };
 });
