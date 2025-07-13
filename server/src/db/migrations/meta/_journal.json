@@ -15,6 +15,13 @@
       "when": 1752182252518,
       "tag": "0001_fluffy_vivisector",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752262147508,
+      "tag": "0002_bored_george_stacy",
+      "breakpoints": true
     }
   ]
 }
